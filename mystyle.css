@@ -1,0 +1,95 @@
+.menu{
+    margin-left: 120px;
+    margin-top: 50px;
+    color: blueviolet;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    display: inline-block;
+    font-weight: 600;
+}
+.menu:hover{
+      color:gray;
+
+}
+.title{
+    margin-left: 500px;
+    width: 500px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 53px;
+    margin-top: 100px;
+    display: block;
+
+}
+.under_title{
+    color: pink;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 35px;
+    font-size: 20px;
+    margin-top: 25px;
+    display:inline-block ;
+}
+.first{
+
+   margin-left: 400px;
+}
+
+.image{
+    width: 1000px;
+    display:block;
+    margin: 0 auto;
+}
+.description{
+   width: 1000px; 
+   margin-left: 250px;
+   display:block;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 20px;
+   color: rgb(60, 4, 41); 
+  }
+  
+  header{
+   position: sticky;
+   top:0;
+   background-color:blueviolet;
+  }
+
+  .subscribe{
+    padding: 10px;
+    background-color: rgb(145, 51, 140);
+  }
+
+  .subscribe input{
+    width: 200px;
+    padding: 5px;
+
+  }
+  .subscribe button{
+    background-color: rgb(77, 4, 51);
+    border:none;
+    padding: 5px 10 px;
+    color:black;
+    font-weight: bold;
+
+  }
+
+  .review{
+    margin-top:50 px;
+    border : 1px solid black;
+    padding : 20px;
+    
+  }
+  .rating{
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .star{
+    color:gold;
+  }
+   
+  input[type="text"], select, textarea{
+  width: 100%;
+  padding:12px;
+  border:1px solid pink;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  }
